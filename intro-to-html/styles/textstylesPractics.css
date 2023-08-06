@@ -1,0 +1,173 @@
+p{
+    margin: 0;
+}
+.first{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+}
+.second{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    font-weight: bold;
+    font-size: 19px;
+}
+.undertitle{
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 15px;
+}
+.description{
+    font-size: 17px;
+    padding-bottom: 15px;
+    line-height: 22px;
+    width: 300px;
+    font-weight: 500;
+}
+.button{
+    background-color: rgb(31, 119, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+.third{
+    font-family: Arial;
+}
+.anonce{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+.deadline{
+    color: rgb(202, 6, 6);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.title4{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.about4{
+    font-family: Arial;
+    width: 570px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.link4{
+    font-family: Arial;
+    width: 570px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(17, 122, 221);
+    padding-bottom: 60px;
+}
+.fifth{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.new5{
+    font-size: 11px;
+    color: rgb(221, 144, 1);
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.name5{
+    font-weight: bold;
+    font-size: 20px;
+}
+.title5{
+    font-weight: bold;
+    font-size: 39px;
+    padding-bottom: 7px;
+}
+.price5{
+    color: rgb(97, 97, 97);
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.buy{
+    margin-bottom: 50px;
+}
+.button5{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sixth{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.currency{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.usd{
+    font-size: 17px;
+    color: rgb(107, 107, 107);
+}
+.green{
+    color: rgb(0, 99, 0);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.red{
+    color: rgb(107, 107, 107);
+    margin-bottom: 40px;
+}
+.realRed{
+    color: rgb(209, 3, 3);
+}
+.seventh{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.author{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.nickname{
+    font-weight: 400;
+    color:rgb(94, 92, 92);
+}
+.description1{
+    width: 500px;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+.description2{
+    font-size: 16px;
+}
+.link{
+    color: rgb(17, 122, 221);
+}
