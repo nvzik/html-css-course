@@ -1,21 +1,33 @@
+
 .first{
     width: 200px;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 .second{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    margin-bottom: 40px;
+    height: 200px;
     object-fit: cover;
 }
 .third{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    margin-bottom: 40px;
+    height: 200px;
     border-radius: 800px;
     object-fit: cover;
+    
 }
 .fourth{
-    width: 200px;
-    border-radius: 5px;
+    width: 240px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    border-style: solid;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-color: gray;
 }
 
 .fifth{
@@ -28,7 +40,74 @@
     border: none;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
     font-size: 16px;
+    margin-bottom: 40px;
 }
-.sixth{
-    width: 450px;
+.sixthF, .sixthS{
+    width: 483px;
+    height: 39px;
+    border-style: solid;
+    color: gray;
+    border-width: 0.5px;
+}
+
+.sixthF{
+    margin-top: 2px;
+    border-width: 2.5px;
+    border-radius: 7px;
+}
+
+.sixthS{
+    border-radius: 35px;
+    background-color: rgb(25, 97, 205);
+    color: white;
+    font-size: 27px;
+    height: 69px;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+.sixthS:hover{
+    cursor: pointer;
+}
+
+.sixthS:active{
+    background-color: rgb(23, 86, 181);
+}
+
+.email, .policy{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.twitter{
+    vertical-align: middle;
+}
+
+.twitterPic{
+object-fit: cover;
+object-position: right;
+height: 100px;
+width: 100px;
+border-radius: 60px;
+margin-right: 25px;
+}
+
+.twitterSearch{
+width: 430px;
+font-size: 29px;
+height: 120px;
+border-style: none;
+}
+
+.twitterBut{
+height: 55px;
+font-size: 26px;
+width: 130px;
+font-weight: bold;
+border-style: none;
+border-radius: 35px;
+background-color: rgb(25, 168, 252);
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
