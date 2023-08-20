@@ -3,7 +3,7 @@
     display: block;
 }
 .search-bar{
-   
+   display: block;
 }
 .video-title{
     display: block;
@@ -14,4 +14,10 @@ display: inline-block;
 }
 .video-stats{
 display: inline-block;
+}
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }
