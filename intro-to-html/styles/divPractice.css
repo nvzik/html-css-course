@@ -92,18 +92,25 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .addFriendPic{
     object-fit: cover;
+    object-position: left;
     width: 200px;
     height: 200px;
-    
+    margin-bottom: 12px;
 }
-.mutual{
-    margin-top: 5px;
-    margin-bottom: 2px;
+.mutualGrid{
+
+    margin-bottom: 10px;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    column-gap: 5px;
 }
 
 .addFriendProfile{
-    display: inline-block;
     width: 30px;
+    width: 30px;
+    object-fit: cover;
     border-radius: 40px;
     margin-right: 5px;
     vertical-align: middle;
@@ -111,12 +118,12 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .mutualFriends{
     color: gray;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .addFriendName{
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-left: 8px;
+    margin-bottom: 5px;
     font-size: 17px;
 }
 .addFriendPadding{
@@ -128,25 +135,33 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 .addFriendButton{
-    width: 120px;
-    height: 40px;
-    padding-left: 0px;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 16px;
     background-color: rgb(69, 137, 255);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 300;
     border-radius: 5px;
+    margin-left: 8px;
 }
 
 
 .addFriend2{
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    font-family: Arial;
     box-shadow: 1px 1px 10px rgba(0,0,0, 0.2);
     width: 200px;
     margin-bottom: 50px;
     margin-right: 20px;
+}
+
+.addFriendGrid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
 }
