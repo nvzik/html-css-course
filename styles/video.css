@@ -1,14 +1,8 @@
 .thumbnail{
     width: 100%;
 }
-.search-bar{
-   display: block;
-}
-p {
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
+
 
 .video-stats, .video-author{
 display: block;
