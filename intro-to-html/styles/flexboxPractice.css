@@ -27,12 +27,13 @@
     align-items: center;
 }
 .flex5{
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(200, 200, 200);
-  width: 300px;
-  border-radius: 6px;
-  font-family: Arial;
+    margin-top: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+    font-family: Arial;
 }
 
 .flex5-1{
@@ -58,3 +59,110 @@
     font-size: 13px;
 }
 
+.flex6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: rgb(139, 76, 188);
+    color: white;
+    font-family: Arial;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex6-Home{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.flex6-Search{
+    width: 350px;
+    height: 27px;
+    border-radius: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-style: none;
+    font-size: 12px;
+    background-color: white;
+}
+
+.flex6-Download{
+    margin-right: 8px;
+    background-color: rgb(139, 76, 188);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 33px;
+    border-color: white;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.flex7{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 400px;
+    font-family: Arial;
+}
+
+.flex7-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.flex7-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 40px;
+}
+
+.flex7-info{
+    flex: 1;
+    padding-left: 15px;
+    height: 85px;
+    display: flex;
+    line-height: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex7-name{
+    font-weight: bold;
+    font-size: 17px;
+    height: 23px;
+}
+
+.flex7-profile1{
+    color: gray;
+    height: 23px;
+    font-size: 17px;
+}
+
+.flex7-profile2{
+    color: gray;
+    height: 23px;
+    font-size: 15px;
+}
+p{
+    margin: 0;
+}
+
+.flex7-Follow{
+    background-color: rgb(42, 134, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 95px;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
